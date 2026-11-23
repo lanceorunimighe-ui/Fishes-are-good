@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b{
+    width: 100vw;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 70px;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/images/desktop/image-hero.jpg');
+
+}
+.logo{
+    object-fit: contain;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    margin-right: 15%;
+}
+main{
+    padding-top: 80px;
+    display: flex;
+}
+.c{
+    border: 2px solid white;
+    width: 600px;
+    height: auto;
+    padding: 35px; 
+}
+.ch{
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    width: 20px;
+    white-space: pre-line;
+    line-height: 150%;
+}
+section{
+    padding-top: 120px;
+    padding-bottom: 160px
+}
+section,
+.our{
+     padding-left: 100px;
+    padding-right: 100px;
+}
+.d{ 
+    height: 390px;
+    border:none;
+    padding-top: 170px;
+    padding-left: 450px;
+    background-size: cover;
+background-image: url('images/desktop/image-interactive.jpg');
+}
+.e{
+ 
+    width: 580px;
+    height: 390px;
+    border: 1px solid blue;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 80px;
+}
+.h{
+    margin-bottom: 30px;
+    white-space: pre-line;
+    text-align: left;
+}
+.h, .k, .l{
+ font-size: 35px;
+  text-transform: uppercase;
+}
+.i{
+    white-space: pre-line;
+    line-height: 130%;
+    color: gray;
+}
+.our{
+padding-top: 75px;
+padding-bottom: 75px;
+}
+.j{
+ display: flex;
+align-items: center;
+justify-content: space-between;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+button:hover{
+color: white;
+background-color: black;
+cursor: pointer;
+}
+.l{
+    display: grid;
+}
+/* background-image containers top */
